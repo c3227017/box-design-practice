@@ -1,54 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Design Practice</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .box {
-            padding: 20px;
-            margin: 20px 0;
-        }
-        .box img {
-            width: 10%;
-        }
-        .box1 {
-            background-color: #e6f7ff;
-            border: 2px solid #333;
-            border-radius: 10px;
-        }
-        .box2 {
-            background-color: #fff2e6;
-            border: 2px solid #333;
-            border-radius: 5px;
-            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-        }
-        .box3 {
-            background-color: #f9e6ff;
-            border: 2px dashed #333;
-            border-radius: 0;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Box Design Practice</title>
+<style>
+body {font-family: Arial, sans-serif;}
+.box {padding: 20px;margin: 20px 0;}.box img {width: 10%;}
+.box1 {background-color: #e6f7ff;border: 2px solid #333;border-radius: 10px;}
+.box2 {background-color: #fff2e6;border: 2px solid #333;border-radius: 5px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);}
+.box3 {background-color: #f9e6ff;
+border: 2px dashed #333;
+border-radius: 0;}
+</style>
 </head>
 <body>
-    <h1>Box Design Practice</h1>
-    <div class="box box1">
-        <h2>Box 1</h2>
-        <p>IMG_1314</p >
-        < img src="img/box1.jpg" alt="Box 1 Image">
-    </div>
-    <div class="box box2">
-        <h2>Box 2</h2>
-        <p>IMG_1313</p >
-        < img src="img/box2.jpg" alt="Box 2 Image">
-    </div>
-    <div class="box box3">
-        <h2>Box 3</h2>
-        <p>IMG_1315</p >
-        < img src="img/box3.jpg" alt="Box 3 Image">
-    </div>
+<h1>Box Design Practice</h1>
+<div class="box box1">
+<h2>Box 1</h2>
+<p>IMG_1314</p >
+</div> src="img/box1.jpg" alt="Box 1 Image">
+</div>
+<div class="box box2">
+<h2>Box 2</h2>
+<p>IMG_1313</p >
+<img src="img/box2.jpg" alt="Box 2 Image">
+</div>
+<div class="box box3">
+<h2>Box 3</h2>
+<p>IMG_1315</p >
+</div> src="img/box3.jpg" alt="Box 3 Image">
+</div>
 </body>
 </html>
